@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  res.render('index', { title: 'AZ300WebApp-NodeWebapp' });
+  res.render('index', { title: 'AZ300WebApp-NodeWebapp######SlotTest' });
 });
 
 module.exports = router;
